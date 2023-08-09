@@ -32,9 +32,20 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+    ["<Up>"] = { "<nop>"},
+    ["<Left>"] = { "<nop>"},
+    ["<Right>"] = {"<nop>"},
+    ["<Down>"] = {"<nop>"},
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  i = { 
+    ["<Up>"] = { "<nop>"},
+    ["<Left>"] = { "<nop>"},
+    ["<Right>"] = {"<nop>"},
+    ["<Down>"] = {"<nop>"},
+  }
 }
